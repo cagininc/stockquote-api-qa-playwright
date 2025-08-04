@@ -20,11 +20,11 @@ This test suite validates that the live Lambda endpoint:
 
 ### 🟢 Allure Report
 
-![Allure Report Screenshot](./reports/Allure.png)
+![Allure Report Screenshot](reports/Allure.png)
 
 ### ☁️ AWS CloudWatch
 
-![CloudWatch Screenshot](./reports/CloudWatch.png)
+![CloudWatch Screenshot](reports/CloudWatch.png)
 
 ## 📦 Repository Structure
 
