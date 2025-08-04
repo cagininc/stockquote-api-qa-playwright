@@ -20,13 +20,11 @@ This test suite validates that the live Lambda endpoint:
 
 ## Allure Report
 
-![Allure Report](https://raw.githubusercontent.com/cagininc/stockquote-api-qa-playwright/main/reports/Allure.png)
-![Allure Report](reports/Allure.png)
+![Allure Report](/reports/Allure.png)
 
 ## CloudWatch Dashboard
 
-![CloudWatch](https://raw.githubusercontent.com/cagininc/stockquote-api-qa-playwright/main/reports/CloudWatch.png)
-![Allure Report](reports/CloudWatch.png)
+![CloudWatch Report](/reports/CloudWatch.png)
 
 ## 📦 Repository Structure
 
