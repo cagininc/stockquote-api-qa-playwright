@@ -16,6 +16,15 @@ This test suite validates that the live Lambda endpoint:
 - **Professional Reporting** with Allure  
 
 ---
+## Reports
+
+### 🟢 Allure Report
+
+![Allure Report Screenshot](./reports/Allure.png)
+
+### ☁️ AWS CloudWatch
+
+![CloudWatch Screenshot](./reports/CloudWatch.png)
 
 ## 📦 Repository Structure
 
@@ -32,8 +41,3 @@ soap-api-playwright/
 ├── package.json
 └── .gitignore
 
-📊 Reports
-Allure Report
-<div align="center"> <!-- Placeholder; --> ![Allure Report](docs/allure-screenshot.png) </div>
-AWS CloudWatch Dashboard
-<div align="center"> <!-- Placeholder;  --> ![CloudWatch Metrics](docs/cloudwatch-screenshot.png) </div>
