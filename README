@@ -1,4 +1,4 @@
-# soap-api-playwright
+# 🧪 soap-api-playwright
 
 **Automated Playwright tests for a SOAP-based StockQuote API, including functional and performance checks.**
 
@@ -10,28 +10,30 @@ I built a **Node.js** server that exposes a SOAP endpoint for real-time stock qu
 Using the **Serverless Framework**, I deployed this service on **AWS Lambda**, and set up **CloudWatch** dashboards to monitor invocation counts, error rates and response times.  
 This test suite validates that the live Lambda endpoint:
 
-- **Functional Validation** of XML requests/responses  
-- **Performance Awareness** via response-time assertions  
-- **Modular Design** (helpers, data-driven tests)  
-- **Professional Reporting** with Allure  
+- ✅ **Functional Validation** of XML requests/responses  
+- ⚡ **Performance Awareness** via response-time assertions  
+- 🧩 **Modular Design** (helpers, data-driven tests)  
+- 📈 **Professional Reporting** with Allure  
 
 ---
 
 ## 📊 Reports
 
-### Allure Report
+### 🧪 Allure Report  
+> Functional & performance test results.
 
 ![Allure Report](./reports/Allure.png)
 
 ---
 
-### CloudWatch Dashboard
+### 📉 CloudWatch Dashboard  
+> Real-time Lambda metrics (invocations, errors, latency).
 
 ![CloudWatch Report](./reports/CloudWatch.png)
 
 ---
 
-## 📦 Repository Structure
+## 📁 Repository Structure
 
 ```
 soap-api-playwright/
@@ -47,3 +49,6 @@ soap-api-playwright/
 ├── package.json
 └── .gitignore
 ```
+
+---
+
