@@ -13,6 +13,19 @@ A Node.js-based SOAP service that:
 3. Serves through AWS Lambda
 4. Validated with Playwright tests
 
+## 📊 Reports
+
+### 🧪 Allure Report  
+> Detailed test steps, performance metrics, and retry logic.
+
+![Allure Report](./reports/Allure.png)
+
+---
+
+### 📉 CloudWatch Dashboard  
+> Lambda invocation counts, error rates, and average response latency over time.
+
+![CloudWatch Report](./reports/CloudWatch.png)
 ## ✨ Features
 
 - ✅ **Functional Validation** of XML requests/responses  
@@ -35,16 +48,4 @@ A Node.js-based SOAP service that:
 ---
 
 
-## 📊 Reports
 
-### 🧪 Allure Report  
-> Detailed test steps, performance metrics, and retry logic.
-
-![Allure Report](./reports/Allure.png)
-
----
-
-### 📉 CloudWatch Dashboard  
-> Lambda invocation counts, error rates, and average response latency over time.
-
-![CloudWatch Report](./reports/CloudWatch.png)
