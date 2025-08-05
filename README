@@ -16,28 +16,34 @@ This test suite validates that the live Lambda endpoint:
 - **Professional Reporting** with Allure  
 
 ---
-## Reports
 
-## Allure Report
+## 📊 Reports
+
+### Allure Report
 
 ![Allure Report](./reports/Allure.png)
 
-## CloudWatch Dashboard
+---
+
+### CloudWatch Dashboard
 
 ![CloudWatch Report](./reports/CloudWatch.png)
 
+---
+
 ## 📦 Repository Structure
 
+```
 soap-api-playwright/
-├── data/ # Test data (symbols.json)
-├── helpers/ # Helper functions (buildRequest.ts)
-├── fixtures/ # Shared fixtures (apiContext.ts)
+├── data/              # Test data (symbols.json)
+├── helpers/           # Helper functions (buildRequest.ts)
+├── fixtures/          # Shared fixtures (apiContext.ts)
 ├── tests/
-│ └── specs/ # Playwright spec files
-│ ├── stockQuote.spec.ts
-│ └── responseTime.spec.ts
-├── .env # Environment variables (ignored)
-├── playwright.config.ts # Playwright configuration
+│   └── specs/         # Playwright spec files
+│       ├── stockQuote.spec.ts
+│       └── responseTime.spec.ts
+├── .env               # Environment variables (ignored)
+├── playwright.config.ts  # Playwright configuration
 ├── package.json
 └── .gitignore
-
+```
