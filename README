@@ -19,17 +19,11 @@ This test suite validates that the live Lambda endpoint:
 
 ## 📊 Reports
 
-### 🧪 Allure Report  
-> Functional & performance test results.
+### 🧪 Allure Test Dashboard  
+![Allure Report](https://raw.githubusercontent.com/cagininc/stockquote-api-qa-playwright/main/reports/Allure.png)
 
-![Allure Report](./reports/Allure.png)
-
----
-
-### 📉 CloudWatch Dashboard  
-> Real-time Lambda metrics (invocations, errors, latency).
-
-![CloudWatch Report](./reports/CloudWatch.png)
+### 📉 CloudWatch Monitoring  
+![CloudWatch Report](https://raw.githubusercontent.com/cagininc/stockquote-api-qa-playwright/main/reports/CloudWatch.png)
 
 ---
 
